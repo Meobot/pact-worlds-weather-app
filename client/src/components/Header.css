@@ -1,12 +1,18 @@
 .Header-container {
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	padding: 20px 0px;
+	padding: 30px 0px;
 }
 
 .Header-container h1 {
 	color: aliceblue;
-	font-size: 1.3em;
+	font-size: 1.1em;
+}
+
+.Header-menu-btn {
+	border: none;
+	background: none;
+	padding: 0px 30px;
 }

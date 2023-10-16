@@ -3,7 +3,13 @@ import "./Header.css"
 function Header() {
   return (
 	<div className="Header-container">
-		<h1>Weathers Beyond</h1>
+		<button className="Header-menu-btn">
+			<img 
+				className="Header-menu-btn-img"
+				src="/client/src/assets/menu-icon.svg" 
+				alt="a menu icon" />
+		</button>
+		<h1>Castrovel</h1>
 	</div>
   )
 }
