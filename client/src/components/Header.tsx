@@ -9,7 +9,6 @@ function Header() {
 				src="/client/src/assets/menu-icon.svg" 
 				alt="a menu icon" />
 		</button>
-		<h1>Castrovel</h1>
 	</div>
   )
 }
