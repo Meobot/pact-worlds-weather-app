@@ -1,0 +1,18 @@
+.ForecastCard-container {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	border: 3px solid white;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.ForecastCard-container h2 {
+	font-size: 1em;
+	margin: 0px 10px;
+}
+
+.ForecastCard-container h3 {
+	font-size: 0.9em;
+	margin: 0px 10px;
+}
