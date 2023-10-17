@@ -7,7 +7,7 @@ function Temperature() {
   return (
 	<div className="Temperature-container">
 		<h2>
-			<p className="Temperature-p">Temperature: <span className="temperature-span">{temperature}&deg;F</span></p>
+			<p className="Temperature-p">{temperature}&deg;F</p>
 		</h2>
 	</div>
   )
