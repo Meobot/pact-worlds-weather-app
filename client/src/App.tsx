@@ -15,6 +15,9 @@ function App() {
 		<ForecastCard />
 		<ForecastCard />
 		<ForecastCard />
+		<ForecastCard />
+		<ForecastCard />
+		<ForecastCard />
 	</div>
   )
 }
