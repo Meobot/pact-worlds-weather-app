@@ -4,7 +4,7 @@ import { MongoClient, ServerApiVersion } from "mongodb";
 const router = express.Router();
 
 // eslint-disable-next-line no-undef
-const dbURI = import.meta.env.ATLAS_URI
+const dbURI = process.env.ATLAS_URI
 
 router.get("/weather", async (req, res) => {
 	try {
